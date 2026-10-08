@@ -23,3 +23,14 @@ Note: the upgradelab-studio v0.1.1 release was deleted and recreated once (minut
 | authmatrix-inspector | `6dcd3b32f8e6` | `none` |
 
 Production verification (real browser, 375 px): all seven demos loaded and showed no horizontal overflow; sample loading, malformed-input rejection and tamper rejection were exercised on ContractAtlas, EventParity, AuthMatrix, UpgradeLab and RailLab; the 0.1.1 pairing line was read on ContractAtlas, ChargeGuard and AuthMatrix. Known cosmetic: ContractAtlas logs a console notice that frame-ancestors is ignored in a meta CSP (the real header is set in vercel.json). 
+
+## Follow-up: EventParity 0.1.2 (2026-10-08, after the second audit)
+
+| Repo | v0.1.2 commit | Change |
+|---|---|---|
+| eventparity-engine | `61af928a8c29` | RPC adapter rejects transaction records with a missing/unknown status, or a successful record without hash or envelope, instead of skipping them |
+| eventparity-studio | `ce026b43cf6a` | Coverage must tile the requested range exactly (no overlap, hole, reversed or out-of-range ranges) and `compared` must equal the covered intersection; re-paired with engine 0.1.2 (version skips 0.1.1) |
+
+Documentation corrected in anchortrace-studio (tarball checksum, absolute SDK link), anchortrace-sdk (studio link), chargeguard-workbench and upgradelab-studio (absolute links), authmatrix-core (0.1.1 tarball name) and upgradelab-runner (status line). These are docs-only commits after the v0.1.1 tags, so those tags are unchanged. The README inside the already-published npm tarballs for anchortrace-sdk and authmatrix-core still carries the old text until the next package release.
+
+Not independently re-done after this follow-up: a live browser mutation test of the deployed EventParity demo (the browser pane was unavailable); the deployed bundle was confirmed to contain the new validation and the mutations are covered by the studio's tests.
