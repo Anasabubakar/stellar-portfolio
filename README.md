@@ -14,6 +14,19 @@ Current release: **0.1.1** (EventParity engine and studio: **0.1.2**) (see [RELE
 | ChargeGuard | Replay-protection testing for Stellar MPP charges across workers | [chargeguard-runner](https://github.com/Charge-Guard/chargeguard-runner) | [`@anas.abubakar/chargeguard-runner`](https://www.npmjs.com/package/@anas.abubakar/chargeguard-runner) | [chargeguard-workbench](https://github.com/Charge-Guard/chargeguard-workbench) | [demo](https://chargeguard-workbench-anasamasama.vercel.app) | [runner](https://stellar-developer-tools.gitbook.io/chargeguard-runner/) · [workbench](https://stellar-developer-tools.gitbook.io/chargeguard-workbench/) |
 | UpgradeLab | Executable Soroban upgrade and migration rehearsal | [upgradelab-runner](https://github.com/Upgrade-Lab/upgradelab-runner) | [`upgradelab-runner`](https://crates.io/crates/upgradelab-runner) (crates.io) | [upgradelab-studio](https://github.com/Upgrade-Lab/upgradelab-studio) | [demo](https://upgradelab-studio-anasamasama.vercel.app) | [runner](https://stellar-developer-tools.gitbook.io/upgradelab-runner/) · [studio](https://stellar-developer-tools.gitbook.io/upgradelab-studio/) |
 
+## Playbook documents
+
+| Phase | Document |
+|---|---|
+| 1. Ecosystem reconnaissance | [docs/phase-1-landscape.md](docs/phase-1-landscape.md) |
+| 5. Contract specifications | [UpgradeableFixture](docs/contracts/contractatlas-upgradeable-fixture.md), [nested auth](docs/contracts/authmatrix-nested-auth-fixture.md), [vault v1 and v2](docs/contracts/upgradelab-vault.md) |
+| 6. Contract coding-agent prompts | [docs/agent-prompts/](docs/agent-prompts/) (`contract-*.md`) |
+| 7. App coding-agent prompts | [docs/agent-prompts/](docs/agent-prompts/) (`app-*.md`, one per app) |
+| 12. Submission text (no demo video) | [docs/submission/](docs/submission/): [ContractAtlas](docs/submission/contractatlas.md), [AnchorTrace](docs/submission/anchortrace.md), [EventParity](docs/submission/eventparity.md), [RailLab](docs/submission/raillab.md), [AuthMatrix](docs/submission/authmatrix.md), [ChargeGuard](docs/submission/chargeguard.md), [UpgradeLab](docs/submission/upgradelab.md) |
+| 13. Changes after approval | [docs/phase-13-iteration.md](docs/phase-13-iteration.md) |
+
+Phases 5 to 7 describe contracts and apps that already exist, so the prompts are for rebuilding, reviewing or extending them. Phases 2, 3, 4, 8 to 11 were done as part of building and publishing the repositories and have no separate document.
+
 ## Contents
 
 - [HANDOFF.md](HANDOFF.md): repositories, pairings, verification record, evidence locations, limitations, owner-only items.
