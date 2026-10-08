@@ -2,7 +2,7 @@
 
 See also RELEASE-0.1.1.md for the coordinated patch release record.
 
-Generated 2026-10-08 from the repositories on disk and GitHub. Owner: GitHub `Anasabubakar`. All repositories are public, MIT licensed, on branch `main`, tagged `v0.1.0` and `v0.1.1` with GitHub releases, with branch protection (no force-push or deletion; required CI status checks; no required reviewers because this is a solo project) and topics set.
+Generated 2026-10-08 from the repositories on disk and GitHub. Owner: GitHub `Anasabubakar`. All repositories are public, MIT licensed, on branch `main`, tagged `v0.1.0` and `v0.1.1` (EventParity: also `v0.1.2`) with GitHub releases, with branch protection (no force-push or deletion; required CI status checks; no required reviewers because this is a solo project) and topics set.
 
 ## Repositories
 
@@ -33,7 +33,7 @@ Local paths: `/home/gamp/Desktop/Projects/Stellar/<project>/<repo>/`. Planning, 
 |---|---|---|
 | contractatlas-studio 0.1.1 | contractatlas-core 0.1.1 (report v1) | vendored schema + sample reports, stamped commit, `compat.json` |
 | anchortrace-studio 0.1.1 | anchortrace-sdk 0.1.1 | committed tarball, `pairing.json`, runtime and build-time check |
-| eventparity-studio 0.1.1 | eventparity-engine 0.1.1 (report v1) | vendored schema, golden reports and text renderings, `compat.json` |
+| eventparity-studio 0.1.2 | eventparity-engine 0.1.2 (report v1) | vendored schema, golden reports and text renderings, `compat.json` |
 | raillab-workbench 0.1.1 | raillab-engine 0.1.1 (session/scenario v1) | committed tarball with stamped SHA-256 |
 | authmatrix-inspector 0.1.1 | authmatrix-core 0.1.1 | committed tarball, `pairing.json`, `compat.json` |
 | chargeguard-workbench 0.1.1 | chargeguard-runner 0.1.1 | vendored schemas and suites with SHA-256 stamp |

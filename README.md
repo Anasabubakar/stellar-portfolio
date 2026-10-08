@@ -2,7 +2,7 @@
 
 Coordination repository for seven Stellar developer tools. Each project is a core library or CLI plus a static demo app, so there are 14 repositories in total. Owner: [Anasabubakar](https://github.com/Anasabubakar). Everything is MIT licensed, runs on testnet or locally, and claims no audit, endorsement or funding status (see [HANDOFF.md](HANDOFF.md)).
 
-Current release: **0.1.1** (see [RELEASE-0.1.1.md](RELEASE-0.1.1.md) for source commits, checksums and pairings). 0.1.0 tags are preserved.
+Current release: **0.1.1** (EventParity engine and studio: **0.1.2**) (see [RELEASE-0.1.1.md](RELEASE-0.1.1.md) for source commits, checksums and pairings). 0.1.0 tags are preserved.
 
 | Project | What it does | Core repo | Package | App repo | Live demo |
 |---|---|---|---|---|---|
